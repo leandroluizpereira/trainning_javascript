@@ -14,4 +14,10 @@ h1{
     justify-content: center;
     align-items: center;
 }
+input{
+    margin-bottom: 30px;
+}
 
+button{
+    margin-bottom: 30px;
+}
