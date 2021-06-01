@@ -11,7 +11,7 @@ window.addEventListener("load",function(){
 */
 function girar(){
 
-
+     var ponteiro = document.getElementById("ponteiro");
     var circulo = document.getElementById("circulo");
  
     var tempo=Math.floor(Math.random()*10)+1;
@@ -25,35 +25,58 @@ function girar(){
 
         case 1:
             alert("Girou com força");
-            circulo.style.animation="girar 2s linear";
+            circulo.style.animation="girar5 2s linear";
+            ponteiro.style.animation="virar 1s infinite";
      
             break;
         case 2 :
-            circulo.style.animation="girar2 4s linear";
+            alert("caso 2");
+            circulo.style.animation="girar2 2s linear";
+            ponteiro.style.animation="virar 1s infinite";
             break;
         case 3:
+            alert("caso 3");
             circulo.style.animation="girar3 5s linear";
+            ponteiro.style.animation="virar 1s infinite";
             break;
         case 4:
-            circulo.style.animation="girar4 5s linear";
+            alert("caso 4");
+            circulo.style.animation="girar4 2s linear";
+            ponteiro.style.animation="virar 1s infinite";
             break;
         case 5:
-            circulo.style.animation="girar2 6s linear";
+            alert("caso 5");
+            circulo.style.animation="girar2 2s linear";
+            ponteiro.style.animation="virar 1s infinite";
             break;
         case 6:
-            circulo.style.animation="girar3 8s linear";
+            alert("caso 6");
+            circulo.style.animation="girar3 2s linear";
+            ponteiro.style.animation="virar 1s infinite";
+            break;
+        case 7:
+            alert("caso 7");
+            circulo.style.animation="girar4 3s linear";
+            ponteiro.style.animation="virar 1s infinite";
             break;
         case 8:
-            circulo.style.animation="girar4 4s linear";
+            alert("caso 8");
+            circulo.style.animation="girar4 2s linear";
+            ponteiro.style.animation="virar 1s infinite";
             break;
         case 9:
-            circulo.style.animation="girar2 4s linear";
+            alert("caso 9");
+            circulo.style.animation="girar2 2s linear";
+            ponteiro.style.animation="virar 1s infinite";
             break;
         case 10:
-            circulo.style.animation="girar4 4s linear";
+            alert("caso 10");
+            circulo.style.animation="girar4 2s linear";
+            ponteiro.style.animation="virar 2s linear";
         default:
             break;
     }
+    ponteiro.style.animation="virar 2s linear";
 }
    /* window.open('index.html','_self');*/
 
