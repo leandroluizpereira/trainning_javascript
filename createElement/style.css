@@ -131,7 +131,7 @@ button{
 
 
 .circulo{
-    margin-left: -260px;
+    margin-left: -290px;
     margin-top: 30px;
     width: 300px;
     height: 300px;
@@ -194,9 +194,9 @@ border-radius: 0px 0px 150px 0px;
 
 }
 .ponto{
-    left: 48.5vw;
-    top: 51vh;
-    position:absolute;
+    left: -120px;
+    top:-1px;
+    position:relative;
     width: 30px;
     height: 30px;
     background-color: red;
