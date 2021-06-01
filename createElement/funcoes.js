@@ -107,12 +107,15 @@ document.body.appendChild(imagem);
 
 
 document.getElementById("liAdd").addEventListener("click",function(){
+
+    
     var lista = document.createElement("li");
     lista.style.textAlign="center";
     var li = document.getElementById("input").value;
-    lista.innerHTML=li;
+   
 
-    var random =Math.floor(Math.random() * 10) + 1; 
+    var random =Math.floor(Math.random() * li) + 1; 
+    lista.innerHTML=random;
     switch(random){
         case  1: 
             lista.style.color="red";
