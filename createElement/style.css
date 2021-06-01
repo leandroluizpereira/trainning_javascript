@@ -2,6 +2,7 @@
 
 body{
     width: 700px;
+    height: 3000px;
     margin: auto;
     background-color: beige;
 }
@@ -21,3 +22,109 @@ input{
 button{
     margin-bottom: 30px;
 }
+
+
+.circulo{
+    margin-top: 30px;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    background-color: aquamarine;
+    /*animation: girar 2s linear infinite;*/
+    margin-bottom: 30px;
+
+}
+
+.colorRed{
+   
+   background-color: rgba(208, 146, 146, 0.741);
+    width: 50%;
+    height: 50%;
+    border-radius: 150px 0px 0px 0px;
+
+
+}
+.colorGreen{
+    width: 50%;
+    height: 50%;
+   background-color: green;
+float: right;
+border-radius: 0px 0px 150px 0px;
+
+}
+.colorGray{
+    width: 50%;
+    height: 50%;
+   background-color: gray;
+float: left;
+border-radius: 0px 0px 0px 150px;
+
+
+}
+.colorBlue{
+    position: relative;
+    width: 50%;
+    height: 50%;
+    top: -150px;
+    right: -150px;
+   background-color: blue;
+   border-radius: 0px 150px 0px 0px;
+}
+.ponteiro{
+    top: -110px;
+    left: 50px;
+    position:relative;
+    width: 100px;
+    height: 10px;
+    background-color: aqua;
+    transform: rotate(45deg);
+    z-index: 1;
+
+}
+
+@keyframes girar {
+    from{
+     transform: rotate(0deg);
+
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes girar2 {
+    from{
+     transform: rotate(0deg);
+
+    }
+    to{
+        transform: rotate(260deg);
+    }
+    80%{
+        transform: rotate(260deg);
+    }
+}
+@keyframes girar3 {
+    from{
+     transform: rotate(0deg);
+
+    }
+    to{
+        transform: rotate(160deg);
+    }
+    80%{
+        transform: rotate(160deg);
+    }
+}
+@keyframes girar4 {
+    from{
+     transform: rotate(0deg);
+
+    }
+    to{
+        transform: rotate(60deg);
+    }
+        80%{
+            transform: rotate(60deg);
+        }
+    }
